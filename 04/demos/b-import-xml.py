@@ -11,12 +11,14 @@ print(users_root)
 print(users_root.tag)
 
 # NOW SURE HOW THIS WORKS
-# children = list(users_root)[0].attrib['tag']
-# print(f"Printing children: {children}")
+print(list(users_root))
+children = list(users_root)[0].attrib['AccountId']
+len(list(users_root.getchildren()))
+print(f"Printing children: {children}")
 # len(list(users_root.getchildren()))
 
 
-users_root[0]
-users_root[0].tag
-users_root[0].attrib
+# users_root[0]
+# users_root[0].tag
+# users_root[0].attrib
 
