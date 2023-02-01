@@ -5,20 +5,16 @@ tree = ET.parse('data\\users-100.xml')
 print(tree)
 # print(dir(tree))
 
-# Get the root, children, and review one Element
+# Get the root
 users_root = tree.getroot()
-print(users_root)
 print(users_root.tag)
 
-# NOW SURE HOW THIS WORKS
-# print(list(users_root))
-# children = list(users_root)[0].attrib['AccountId']
-# len(list(users_root.getchildren()))
-# print(f"Printing children: {children}")
-# len(list(users_root.getchildren()))
-
-
-# users_root[0]
-# users_root[0].tag
-# users_root[0].attrib
+# Get children (or subnodes)
+print(list(users_root))
+# Count to see how many subnodes there are
+print(len(list(users_root)))
+# To fetch one element
+print(users_root[0])
+# Fetch all the attributes of the first element
+print(users_root[0].attrib)
 
