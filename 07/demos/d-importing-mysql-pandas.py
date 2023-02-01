@@ -4,7 +4,7 @@
 # show databases;
 # use importing_mysql
 # show tables;
-import mysql
+
 from sqlalchemy import create_engine
 import pandas as pd
 engine = create_engine('mysql+mysqlconnector://root:mysql@localhost:3306/importing_mysql')
