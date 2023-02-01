@@ -1,0 +1,8 @@
+pandas
+sas7bdat
+h5py
+tables
+scipy
+SQLAlchemy
+mysql
+psycopg2

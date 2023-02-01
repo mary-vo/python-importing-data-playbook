@@ -1,10 +1,9 @@
 import numpy as np
 
-
 # Import a list using np.array
 sample_array = np.array([0,0,7])
 print(type(sample_array))
-# print(dir(sample_array))
+print(dir(sample_array))
 
 # Import a NumPy text file
 # cat badges-five-numpy.txt
