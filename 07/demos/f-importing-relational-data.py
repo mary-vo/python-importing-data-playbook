@@ -1,3 +1,5 @@
+## I cannot connect to mysql engine. Cannot complete this
+
 # Harness the full power of SQL
 engine_mysql.table_names() 
 nicer_query = "SELECT posts.Id, Users.DisplayName, posts.AnswerCount, posts.ViewCount FROM posts INNER JOIN users on posts.OwnerUserId=Users.Id ORDER BY posts.ViewCount DESC LIMIT 5;"

@@ -1,3 +1,5 @@
+## I don't think this is working either. I wonder if it has to due with relational databases that are not hosted locally on my machine?
+
 # Import data with Psycopg2
 # psql
 # \l
